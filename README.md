@@ -59,7 +59,7 @@ If no parameters are provided, the app will show the empty black screen with no 
 ![Sunshine Sleep App](doc/sunshine-app.png)
 </details>
 
-Open Applications settings in Sunshine Web UI (`https://<sunshine-pc:47990/apps`), click **Add New**.
+Open Applications settings in Sunshine Web UI (`https://<sunshine-pc>:47990/apps`), click **Add New**.
 
 Make sure to download and install [NirCmd](https://www.nirsoft.net/utils/nircmd.html) so that it's available in your
 PATH (or adjust the **Detached Command** to use the full path to `nircmd.exe`). This app can do many things, including
