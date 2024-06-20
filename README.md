@@ -30,7 +30,7 @@ Of course, there are other solutions for that:
   commands, HA dashboard, CLI and automations
 
 While all the above will work just fine, sometimes you may want to manually force the streaming host to sleep directly
-from the client. That is where the blow guide should help.
+from the client. That is where the below guide should help.
 
 ### Usage
 
