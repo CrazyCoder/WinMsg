@@ -1,0 +1,27 @@
+#include <winver.h>
+#include "../src/resource.h"
+
+IDI_MAIN ICON "winmsg.ico"
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION    1,0,0,0
+    PRODUCTVERSION 1,0,0,0
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "CompanyName",        "CrazyCoder"
+            VALUE "FileDescription",    "winmsg.exe -- displays a message and exits"
+            VALUE "FileVersion",        "V1.0.0.0"
+            VALUE "LegalCopyright",     "(C)2024 Serge Baranov"
+            VALUE "OriginalFilename",   "winmsg.exe"
+            VALUE "ProductName",        "WinMsg"
+            VALUE "ProductVersion",     "V1.0.0.0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409,1200
+    }
+}
